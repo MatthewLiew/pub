@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 5, 2018, 4:48:29 PM
+    Author     : Meiko
+*/
+
+.bg-dark{
+    background-color: #367fa9!important;
+}
+#mainNav.fixed-top .sidenav-toggler > .nav-item{
+    background-color: #367fa9!important;
+}
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav{
+    background-color: #3c8dbc!important;
+    color: #fff!important;
+}
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .nav-link {
+    color: #fff; 
+}
+#mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item > .nav-link:hover {
+    color: #adb5bd; 
+}
+
+/*  Login CSS */
+.btn-primary{
+    color: #fff;
+    background-color: #367fa9!important;
+    border-color: #3c8dbc!important;
+}
+
+/* DashBoard */
+.bg-primary {
+    background-color: #00c0ef!important;
+}
+a:hover {
+    text-decoration: none!important;
+}
+
+/*************************** For Select Fixed In Bootstrap Min Css ************************/
+/*************************** For Select Fixed In Bootstrap Min Css ************************/
+@media (min-width: 992px)
+.navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row!important;
+}
+.ml-auto, .mx-auto {
+    margin-left: right!important;
+}
+
+.navbar-nav {    
+    display: flex!important;
+    -ms-flex-direction: column!important;
+	float: right !important;
+    /*flex-direction: column!important;*/
+    padding-left: 0!important;
+    margin-bottom: 0!important;
+    list-style: none!important;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+/*************************** For Select Fixed In Bootstrap Min Css ************************/
+.navbar {
+	margin-bottom: 0px!important;
+	padding: 0.2rem 1rem !important;
+	border: none !important;
+}
+.navbar-nav { 
+    margin-left: auto!important;
+}
+body.fixed-nav {
+    padding-top: 0px !important;
+}
+footer.sticky-footer {
+    /*width: calc(100% - 251px) !important;*/
+	width: 100% !important;
+}
+
+.form-inline .bootstrap-select.btn-group, .form-horizontal .bootstrap-select.btn-group, .form-group .bootstrap-select.btn-group{
+	border: 1px solid #ccc;
+}
+.btn-secondary {
+    color: #000;
+    background-color: #fff;
+    border-color: #868e96;
+	border: 1px solid #ccc!important;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #333;
+    text-decoration: none;
+	color: #000!important;
+    background-color: #fff!important;
+    border-color: #ccc!important;
+}
+
+.btn-secondary:not([disabled]):not(.disabled).active, .btn-secondary:not([disabled]):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #000;
+    background-color: #fff;
+    border-color: #666e76;
+    box-shadow: 0 0 0 .1rem rgba(134,142,150,.5);
+}
+.btn .dropdown-toggle .btn-secondary{
+	border: 1px solid #ccc;
+}
+
+.caret {
+	border-top: none !important;
+}
+
+#mainNav .navbar-collapse{
+	padding-bottom: 2px;
+}
+
+.input-group-sm>.input-group-btn>select.btn:not([size]):not([multiple]), .input-group-sm>select.form-control:not([size]):not([multiple]), .input-group-sm>select.input-group-addon:not([size]):not([multiple]), select.form-control-sm:not([size]):not([multiple]){
+	height: calc(2.25rem + 10px)!important;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.25rem + 15px) !important;
+}
+.card-body{
+	/*height: 100px;*/
+}
+
+.card-footer{
+	height: 90px;
+}
+
+.card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: 40px;
+    right: -25px;
+    font-size: 9rem!important;
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(20deg)!important;
+}
+body{
+	font-size: 15px !important;
+}
+
+.show_error{
+	margin: 20px 20px 20px 20px;
+    //border: 1px solid #ccc;
+    padding: 20px 20px 38px 20px;
+	opacity: 0.8;
+    filter: alpha(opacity=38);	
+	background-color: #3c8dbc;
+	/*
+	z-index: 1000 !important;
+    position: absolute !important;
+    width: 80% !important;
+    opacity: 0.7 !important;
+	margin-top: 148px !important;
+    padding: 39px !important;
+    margin-bottom: 29px !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px !important;
+	*/
+}
+
+.modal.fade .modal-dialog{
+	-webkit-transform: none !important;
+}
+
+#LogoutModal{
+	top: 0px;
+}
+
+body.sticky-footer .content-wrapper {
+    min-height: calc(100vh - 55px - 55px)!important;
+}
